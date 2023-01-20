@@ -1,9 +1,10 @@
 package main
 
 import (
-	"example/channels"
+	"example/routines"
 )
 
 func main() {
-	channels.Execute()
+	// channels.Execute()
+	routines.Execute()
 }
